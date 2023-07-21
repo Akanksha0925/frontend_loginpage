@@ -1,0 +1,76 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    margin: 50px;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+body{
+    min-height:100vh;
+    background:yellow;
+
+}
+form{
+    background:#989898ce;
+    width:350px;
+    height:580px;
+    padding-left:50px;
+    padding-top:75px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+
+}
+
+h1{
+    text-align:center;
+    margin-bottom:45px;
+    color: white;
+    font: size 25px;
+}
+
+.textBoxdiv{
+    border-bottom:2px solid white;
+    position: relative;
+    margin:35px 0;
+}
+.textBoxdiv input{
+    background :none;
+    border:none;
+    outline:none;
+    width:100%;
+    color:white;
+    height:30px;
+    position: center;
+
+    font-size:20px;
+
+}
+.loginBtn{
+    height:45px;
+    width: 100%;
+    border:none;
+    outline:none;
+    background:blue;
+    background-size:200%;
+    transition: 0.5s;
+    color:white;
+    font: size 20px;
+   
+
+}
+.loginBtn:hover{
+    background-position: center;
+    font-size: 17px;
+}
+.signup{
+    color: black;
+    margin-top: 45px;
+    text-align:center;
+}
+.signup a{
+    color:black;
+    text-align:center;
+}
